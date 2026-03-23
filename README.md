@@ -42,13 +42,10 @@ tp9/
 |  `- test/java/ma/fstg/security/Tp9ApplicationTests.java
 `- README.md
 ```
+## Demo
 
-## Bonnes pratiques
 
-- En production, il faut encoder les mots de passe avec `BCryptPasswordEncoder`.
-- Il vaut mieux eviter de coder les roles en dur dans une vraie application.
+https://github.com/user-attachments/assets/d091477d-e4af-4ea9-9003-0a149de40198
+
+
 - Les regles de securite doivent rester centralisees dans une configuration dediee.
-
-## Important
-
-Spring Boot `3.3.x` demande Java `17` ou plus. Si la machine utilise encore Java 8, il faut installer un JDK 17+ avant de lancer l'application.
