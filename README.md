@@ -22,25 +22,6 @@ Ce projet suit les etapes montrees dans les images :
 - `http://localhost:8080/login`
 - `http://localhost:8080/logout`
 
-## Structure
-
-```text
-tp9/
-|- pom.xml
-|- mvnw
-|- mvnw.cmd
-|- src/
-|  |- main/
-|  |  |- java/ma/fstg/security/
-|  |  |  |- Tp9Application.java
-|  |  |  |- config/SecurityConfig.java
-|  |  |  |- web/HomeController.java
-|  |  |  `- web/LoginController.java
-|  |  `- resources/
-|  |     |- application.properties
-|  |     `- templates/login.html
-|  `- test/java/ma/fstg/security/Tp9ApplicationTests.java
-`- README.md
 ```
 ## Demo
 
